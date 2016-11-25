@@ -32,9 +32,9 @@ public class MainActivity extends AppCompatActivity {
 
         //noinspection SimplifiableIfStatement
         if (id == R.id.mi_settings) {
-             Toast.makeText(getBaseContext(), "Todo: settings screen", Toast.LENGTH_LONG).show();
-//            Intent intent = new Intent(getBaseContext(), SettingsActivity.class);
-//            startActivity(intent);
+//             Toast.makeText(getBaseContext(), "Todo: settings screen", Toast.LENGTH_LONG).show();
+            Intent intent = new Intent(getBaseContext(), MySettingsActivity.class);
+            startActivity(intent);
             return true;
         }
 
